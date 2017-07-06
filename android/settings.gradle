@@ -1,0 +1,7 @@
+rootProject.name = 'Test'
+include ':react-native-spinkit'
+project(':react-native-spinkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-spinkit/android')
+include ':react-native-webview-android'
+project(':react-native-webview-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview-android/android')
+
+include ':app'
