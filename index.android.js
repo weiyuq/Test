@@ -109,7 +109,9 @@ export default class Test extends Component {
         };
     }
 
-
+    //111111111111111111111111111111
+    //2222222222222222222222222222
+    //3333333333333333333333333333333333
     next() {
         if (this.state.index++ >= this.state.types.length)
             this.setState({index: 0})
